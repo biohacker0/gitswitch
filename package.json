@@ -1,0 +1,23 @@
+{
+  "name": "gitswitch",
+  "version": "1.0.0",
+  "description": "A CLI tool to manage multiple Git accounts",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "gitswitch": "./bin/gitswitch.js"
+  },
+  "scripts": {
+    "start": "node bin/gitswitch.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^9.0.0",
+    "sqlite3": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "biohacker0",
+  "license": "MIT"
+}
